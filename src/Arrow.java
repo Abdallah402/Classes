@@ -1,0 +1,7 @@
+public class Arrow extends Weapon {
+    public Arrow() {
+        super("Arrow", "A arrow. Better for long range attacks.",
+                10, 20);
+
+    }
+}
