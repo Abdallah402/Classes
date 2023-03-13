@@ -10,6 +10,9 @@ public class Main {
         Dog spotDog = new Dog("Spot Dog", 20, 15);
         Abdallah abdallah = new Abdallah("Abdallah 1", 100, 200);
         Wizard wizzard = new Wizard(Spells.Fireballs);
+        World world = new World();
+        world.load_tiles();
+        /////
 
 
 
